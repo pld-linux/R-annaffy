@@ -2,20 +2,20 @@
 
 Summary:	Annotation tools for Affymetrix biological metadata
 Name:		R-%{packname}
-Version:	1.30.0
+Version:	1.34.0
 Release:	1
 License:	LGPL v2+
 Group:		Applications/Engineering
 Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	706772d7ae0b91168fbf826172af773c
-URL:		http://bioconductor.org/packages/release/bioc/html/%{packname}.html
+# Source0-md5:	886859ce049d7b17b5c728b8016e8f20
+URL:		http://bioconductor.org/packages/release/bioc/html/annaffy.html
 BuildRequires:	R
 BuildRequires:	R-Biobase
 BuildRequires:	R-GO.db
 BuildRequires:	R-KEGG.db
 BuildRequires:	R-AnnotationDbi
 BuildRequires:	R-hgu95av2.db
-BuildRequires:	R-multtest,
+BuildRequires:	R-multtest
 BuildRequires:	texlive-latex
 BuildRequires:	zlib-devel
 Requires:	R
@@ -24,7 +24,7 @@ Requires:	R-GO.db
 Requires:	R-KEGG.db
 Requires:	R-AnnotationDbi
 Suggests:	R-hgu95av2.db
-Suggests:	R-multtest,
+Suggests:	R-multtest
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
