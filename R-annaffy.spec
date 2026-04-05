@@ -1,14 +1,15 @@
 %define		packname	annaffy
 
+%undefine	_debugsource_packages
 Summary:	Annotation tools for Affymetrix biological metadata
 Name:		R-%{packname}
-Version:	1.34.0
-Release:	2
+Version:	1.82.0
+Release:	1
 License:	LGPL v2+
 Group:		Applications/Engineering
-Source0:	http://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	886859ce049d7b17b5c728b8016e8f20
-URL:		http://bioconductor.org/packages/release/bioc/html/annaffy.html
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	053d4bf1d8d7514224a1e6e5ce8b44d9
+URL:		https://bioconductor.org/packages/release/bioc/html/annaffy.html
 BuildRequires:	R
 BuildRequires:	R-Biobase
 BuildRequires:	R-GO.db
